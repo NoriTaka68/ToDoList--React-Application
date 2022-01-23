@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaListAlt,FaCheckSquare, FaPlusSquare, FaTrash } from "react-icons/fa";
+import {FcEmptyTrash, FcList, FcCheckmark, FcPlus, FcFullTrash} from "react-icons/fc";
+
 
 
 class App extends React.Component {
@@ -28,11 +30,11 @@ class App extends React.Component {
 
         <footer className="d-flex justify-content-between bg-secondary p-3" id="mainFooter">
           <div className="btn-group">
-            <a href="#" className="btn btn-outilise-dark bg-light"><FaListAlt/></a>
-            <a href="#" className="btn btn-outilise-dark bg-light"><FaCheckSquare/></a>
-            <a href="#" className="btn btn-outilise-dark bg-light"><FaPlusSquare/></a>
+            <a href="#" className="btn btn-outilise-dark bg-light"><FcList/></a>
+            <a href="#" className="btn btn-outilise-dark bg-light"><FcCheckmark/></a>
+            <a href="#" className="btn btn-outilise-dark bg-light"><FcPlus/></a>
           </div>
-          <button className="btn btn-outilise-dark bg-light"><FaTrash/></button>
+          <button className="btn btn-outilise-dark bg-light"><FcFullTrash/></button>
         </footer>
 
       </section>
